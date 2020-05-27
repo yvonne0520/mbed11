@@ -17,6 +17,6 @@ s.write("ATCN\r\n".encode())
 print("start sending RPC")
 
 while True:
-    s.write("/getAcc/run\r".encode())
+    s.write("/acc/run\r".encode())
     time.sleep(1)    
 s.close()
